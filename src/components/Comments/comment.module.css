@@ -1,0 +1,12 @@
+.comment-img {
+  max-width: 480px;
+  margin: auto;
+}
+.comment-button {
+  width: 120px;
+  white-space: nowrap;
+  margin-top: 20px;
+  border: none;
+  padding: 4px;
+  font-size: 16px;
+}

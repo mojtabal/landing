@@ -1,0 +1,27 @@
+.footer {
+  background-image: url(./../../assets/img/footer.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 60px;
+}
+.footer-icons-parent {
+  display: flex;
+  font-size: larger;
+}
+.footer-icon {
+  margin: 6px;
+}
+a {
+  color: white;
+}
+.copy-right {
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  padding-left: auto;
+}

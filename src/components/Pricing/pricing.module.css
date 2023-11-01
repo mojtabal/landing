@@ -1,0 +1,33 @@
+.pricing-item {
+  background-color: var(--gray);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.pricing-item:hover {
+  box-shadow: 0px 5px 30px 5px lightgray;
+}
+.active {
+  background-color: var(--darkBlue);
+  color: white;
+}
+.pricing-icon {
+  font-size: 50px;
+  color: var(--darkGreen);
+}
+.button-no-active {
+  padding: 5px 25px;
+  white-space: nowrap;
+  margin-left: 25px;
+  text-align: center;
+  color: var(--borderBlue);
+  border: 2px solid var(--borderBlue);
+  border-radius: 30px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.button-no-active:hover {
+  border: 2px solid var(--darkBlue);
+  color: var(--darkBlue);
+}

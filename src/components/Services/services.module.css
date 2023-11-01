@@ -1,0 +1,22 @@
+.service-item {
+  display: flex;
+  border-radius: 18px;
+  background-color: var(--gray);
+  cursor: pointer;
+  background-repeat: repeat-x;
+  background-image: url(./../../assets/img/wave.svg);
+  background-size: 220%;
+  background-position: 0 -200%;
+  transition: background-position 0.7s ease-out; /* backgroun-position or all */
+}
+.service-item:hover {
+  background-position: 0 100%;
+}
+
+.item-icon {
+  color: var(--darkGreen);
+  font-size: 35px;
+}
+.item-title {
+  color: var(--darkBlue);
+}

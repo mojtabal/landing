@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Estedad";
+  src: url("./assets/font/Estedad-Light.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "EstedadBold";
+  src: url("./assets/font/Estedad-ExtraBold.ttf");
+  font-display: block;
+}
+* {
+  font-family: "Estedad";
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a,
+div {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+li,
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+:root {
+  --darkGreen: #08a45c;
+  --lightGreen: #cde6db;
+  --hoverGreen: #20c997;
+  --darkBlue: #003379;
+  --lightBlue: #edecfd;
+  --blue: #007bff;
+  --borderBlue: #5d8b9e;
+  --white: white;
+  --gray: #f3f3f3;
+  --lightGray: #fbfbfb;
+  --white: #ffffff;
+  --dark: #000000;
+}
+.home-button {
+  padding: 5px 22px;
+  white-space: nowrap;
+  margin-left: 25px;
+  border: none;
+  background-color: var(--darkGreen);
+  color: var(--white);
+  border-radius: 30px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-button:hover {
+  background-color: var(--hoverGreen);
+}
